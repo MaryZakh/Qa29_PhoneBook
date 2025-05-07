@@ -2,7 +2,6 @@ package manager;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 
 public class HelperUser extends HelperBase {
 
@@ -39,4 +38,11 @@ public class HelperUser extends HelperBase {
         click(By.xpath("//button[text()='Login']"));
     }
 
+    public boolean isLogged() {
+        return isElementPresent(By.xpath("//button[text()='Sign Out']"));
+    }
+
+    public void logout() {
+        click(By.xpath("//button[text()='Sign Out']"));
+    }
 }
