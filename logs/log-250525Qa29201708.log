@@ -1,0 +1,168 @@
+20:17:10.395 INFO  manager.ApplicationManager - All tests runs in Chrome Browser
+20:17:11.536 INFO  manager.ApplicationManager - The link -->https://telranedu.web.app/home
+20:17:11.598 INFO  tests.TestBase - Name of method -->loginSuccess
+20:17:16.614 INFO  tests.TestBase - Start test with name 'loginSuccess'
+20:17:16.615 INFO  manager.WDListener - Before find element -->By.xpath: //a[text()='LOGIN']
+20:17:16.647 INFO  manager.WDListener - After find element -->By.xpath: //a[text()='LOGIN']
+20:17:16.693 INFO  manager.WDListener - Location of element (1426, 34)
+20:17:16.730 INFO  manager.WDListener - Before click element-->atext = LOGIN
+20:17:16.859 INFO  manager.WDListener - After click element-->a
+20:17:16.863 INFO  manager.HelperBase - open form by click on button with locator By.xpath("//a[text()='LOGIN']") 
+20:17:16.863 INFO  manager.WDListener - Before find element -->By.name: email
+20:17:16.895 INFO  manager.WDListener - After find element -->By.name: email
+20:17:16.912 INFO  manager.WDListener - Location of element (568, 250)
+20:17:16.936 INFO  manager.WDListener - Before click element-->inputtext = 
+20:17:17.045 INFO  manager.WDListener - After click element-->input
+20:17:17.160 INFO  manager.WDListener - sendKeys -->inputtext
+20:17:17.219 INFO  manager.WDListener - sendKeys -->inputtext
+20:17:17.295 INFO  manager.WDListener - sendKeys -->inputtext
+20:17:17.295 INFO  manager.HelperBase - type in input with locator By.name("email")
+20:17:17.295 INFO  manager.WDListener - Before find element -->By.xpath: //input[last()]
+20:17:17.319 INFO  manager.WDListener - After find element -->By.xpath: //input[last()]
+20:17:17.335 INFO  manager.WDListener - Location of element (568, 320)
+20:17:17.354 INFO  manager.WDListener - Before click element-->inputtext = 
+20:17:17.425 INFO  manager.WDListener - After click element-->input
+20:17:17.496 INFO  manager.WDListener - sendKeys -->inputtext
+20:17:17.542 INFO  manager.WDListener - sendKeys -->inputtext
+20:17:17.595 INFO  manager.WDListener - sendKeys -->inputtext
+20:17:17.595 INFO  tests.TestBase - Test data --> email: 'margo@gmail.com' & password: 'Mmar123456$'
+20:17:17.595 INFO  manager.WDListener - Before find element -->By.xpath: //button[text()='Login']
+20:17:17.618 INFO  manager.WDListener - After find element -->By.xpath: //button[text()='Login']
+20:17:17.639 INFO  manager.WDListener - Location of element (568, 390)
+20:17:17.663 INFO  manager.WDListener - Before click element-->buttontext = Login
+20:17:19.554 INFO  tests.TestBase - Assert check is element button 'Sign out' present
+20:17:19.556 INFO  tests.TestBase - =================================================================
+20:17:19.558 INFO  tests.TestBase - Name of method -->loginSuccessModel
+20:17:19.579 INFO  manager.WDListener - Before find element -->By.xpath: //button[text()='Sign Out']
+20:17:19.608 INFO  manager.WDListener - After find element -->By.xpath: //button[text()='Sign Out']
+20:17:19.623 INFO  manager.WDListener - Location of element (1413, 39)
+20:17:19.641 INFO  manager.WDListener - Before click element-->buttontext = Sign Out
+20:17:19.726 INFO  tests.TestBase - Before method finish logout
+20:17:19.727 INFO  manager.WDListener - Before find element -->By.xpath: //a[text()='LOGIN']
+20:17:19.752 INFO  manager.WDListener - After find element -->By.xpath: //a[text()='LOGIN']
+20:17:19.767 INFO  manager.WDListener - Location of element (1425, 33)
+20:17:19.790 INFO  manager.WDListener - Before click element-->atext = LOGIN
+20:17:19.894 INFO  manager.WDListener - After click element-->a
+20:17:19.894 INFO  manager.HelperBase - open form by click on button with locator By.xpath("//a[text()='LOGIN']") 
+20:17:19.894 INFO  manager.WDListener - Before find element -->By.name: email
+20:17:19.909 INFO  manager.WDListener - After find element -->By.name: email
+20:17:19.924 INFO  manager.WDListener - Location of element (568, 250)
+20:17:19.940 INFO  manager.WDListener - Before click element-->inputtext = 
+20:17:20.013 INFO  manager.WDListener - After click element-->input
+20:17:20.075 INFO  manager.WDListener - sendKeys -->inputtext
+20:17:20.122 INFO  manager.WDListener - sendKeys -->inputtext
+20:17:20.196 INFO  manager.WDListener - sendKeys -->inputtext
+20:17:20.196 INFO  manager.HelperBase - type in input with locator By.name("email")
+20:17:20.196 INFO  manager.WDListener - Before find element -->By.xpath: //input[last()]
+20:17:20.217 INFO  manager.WDListener - After find element -->By.xpath: //input[last()]
+20:17:20.237 INFO  manager.WDListener - Location of element (568, 320)
+20:17:20.265 INFO  manager.WDListener - Before click element-->inputtext = 
+20:17:20.359 INFO  manager.WDListener - After click element-->input
+20:17:20.422 INFO  manager.WDListener - sendKeys -->inputtext
+20:17:20.460 INFO  manager.WDListener - sendKeys -->inputtext
+20:17:20.519 INFO  manager.WDListener - sendKeys -->inputtext
+20:17:20.519 INFO  tests.TestBase - Test data --> email: 'margo@gmail.com' & password: 'Mmar123456$'
+20:17:20.519 INFO  manager.WDListener - Before find element -->By.xpath: //button[text()='Login']
+20:17:20.533 INFO  manager.WDListener - After find element -->By.xpath: //button[text()='Login']
+20:17:20.549 INFO  manager.WDListener - Location of element (568, 390)
+20:17:20.569 INFO  manager.WDListener - Before click element-->buttontext = Login
+20:17:20.905 INFO  tests.TestBase - Assert check is element button 'Sign out' present
+20:17:20.905 INFO  tests.TestBase - =================================================================
+20:17:20.906 INFO  tests.TestBase - Name of method -->loginWrongEmail
+20:17:20.923 INFO  manager.WDListener - Before find element -->By.xpath: //button[text()='Sign Out']
+20:17:20.943 INFO  manager.WDListener - After find element -->By.xpath: //button[text()='Sign Out']
+20:17:20.958 INFO  manager.WDListener - Location of element (1413, 39)
+20:17:20.979 INFO  manager.WDListener - Before click element-->buttontext = Sign Out
+20:17:21.046 INFO  tests.TestBase - Before method finish logout
+20:17:21.047 INFO  manager.WDListener - Before find element -->By.xpath: //a[text()='LOGIN']
+20:17:21.065 INFO  manager.WDListener - After find element -->By.xpath: //a[text()='LOGIN']
+20:17:21.078 INFO  manager.WDListener - Location of element (1425, 33)
+20:17:21.105 INFO  manager.WDListener - Before click element-->atext = LOGIN
+20:17:21.197 INFO  manager.WDListener - After click element-->a
+20:17:21.197 INFO  manager.HelperBase - open form by click on button with locator By.xpath("//a[text()='LOGIN']") 
+20:17:21.197 INFO  manager.WDListener - Before find element -->By.name: email
+20:17:21.210 INFO  manager.WDListener - After find element -->By.name: email
+20:17:21.226 INFO  manager.WDListener - Location of element (568, 250)
+20:17:21.246 INFO  manager.WDListener - Before click element-->inputtext = 
+20:17:21.316 INFO  manager.WDListener - After click element-->input
+20:17:21.408 INFO  manager.WDListener - sendKeys -->inputtext
+20:17:21.535 INFO  manager.WDListener - sendKeys -->inputtext
+20:17:21.578 INFO  manager.WDListener - sendKeys -->inputtext
+20:17:21.579 INFO  manager.HelperBase - type in input with locator By.name("email")
+20:17:21.579 INFO  manager.WDListener - Before find element -->By.xpath: //input[last()]
+20:17:21.591 INFO  manager.WDListener - After find element -->By.xpath: //input[last()]
+20:17:21.599 INFO  manager.WDListener - Location of element (568, 320)
+20:17:21.614 INFO  manager.WDListener - Before click element-->inputtext = 
+20:17:21.683 INFO  manager.WDListener - After click element-->input
+20:17:21.751 INFO  manager.WDListener - sendKeys -->inputtext
+20:17:21.799 INFO  manager.WDListener - sendKeys -->inputtext
+20:17:21.848 INFO  manager.WDListener - sendKeys -->inputtext
+20:17:21.848 INFO  tests.TestBase - Test data --> email: 'maragmail.com' & password: 'Mmar123456$'
+20:17:21.849 INFO  manager.WDListener - Before find element -->By.xpath: //button[text()='Login']
+20:17:21.859 INFO  manager.WDListener - After find element -->By.xpath: //button[text()='Login']
+20:17:21.870 INFO  manager.WDListener - Location of element (568, 390)
+20:17:21.887 INFO  manager.WDListener - Before click element-->buttontext = Login
+20:17:22.498 INFO  tests.TestBase - Assert check is  alert present with text 'Wrong email or password'
+20:17:22.499 INFO  tests.TestBase - =================================================================
+20:17:22.500 INFO  tests.TestBase - Name of method -->loginWrongPassword
+20:17:27.561 INFO  manager.WDListener - Before find element -->By.xpath: //a[text()='LOGIN']
+20:17:27.576 INFO  manager.WDListener - After find element -->By.xpath: //a[text()='LOGIN']
+20:17:27.592 INFO  manager.WDListener - Location of element (1425, 33)
+20:17:27.618 INFO  manager.WDListener - Before click element-->atext = LOGIN
+20:17:27.689 INFO  manager.WDListener - After click element-->a
+20:17:27.691 INFO  manager.HelperBase - open form by click on button with locator By.xpath("//a[text()='LOGIN']") 
+20:17:27.691 INFO  manager.WDListener - Before find element -->By.name: email
+20:17:27.713 INFO  manager.WDListener - After find element -->By.name: email
+20:17:27.731 INFO  manager.WDListener - Location of element (568, 281)
+20:17:27.757 INFO  manager.WDListener - Before click element-->inputtext = 
+20:17:27.838 INFO  manager.WDListener - After click element-->input
+20:17:27.953 INFO  manager.WDListener - sendKeys -->inputtext
+20:17:27.995 INFO  manager.WDListener - sendKeys -->inputtext
+20:17:28.051 INFO  manager.WDListener - sendKeys -->inputtext
+20:17:28.051 INFO  manager.HelperBase - type in input with locator By.name("email")
+20:17:28.052 INFO  manager.WDListener - Before find element -->By.xpath: //input[last()]
+20:17:28.068 INFO  manager.WDListener - After find element -->By.xpath: //input[last()]
+20:17:28.085 INFO  manager.WDListener - Location of element (568, 351)
+20:17:28.102 INFO  manager.WDListener - Before click element-->inputtext = 
+20:17:28.171 INFO  manager.WDListener - After click element-->input
+20:17:28.264 INFO  manager.WDListener - sendKeys -->inputtext
+20:17:28.305 INFO  manager.WDListener - sendKeys -->inputtext
+20:17:28.353 INFO  manager.WDListener - sendKeys -->inputtext
+20:17:28.353 INFO  tests.TestBase - Test data --> email: 'mara@gmail.com' & password: 'Mmar123'
+20:17:28.354 INFO  manager.WDListener - Before find element -->By.xpath: //button[text()='Login']
+20:17:28.374 INFO  manager.WDListener - After find element -->By.xpath: //button[text()='Login']
+20:17:28.389 INFO  manager.WDListener - Location of element (568, 421)
+20:17:28.411 INFO  manager.WDListener - Before click element-->buttontext = Login
+20:17:29.020 INFO  tests.TestBase - Assert check is  alert present with text 'Wrong email or password'
+20:17:29.022 INFO  tests.TestBase - =================================================================
+20:17:29.023 INFO  tests.TestBase - Name of method -->loginWrongUnregisteredUser
+20:17:34.095 INFO  manager.WDListener - Before find element -->By.xpath: //a[text()='LOGIN']
+20:17:34.123 INFO  manager.WDListener - After find element -->By.xpath: //a[text()='LOGIN']
+20:17:34.141 INFO  manager.WDListener - Location of element (1425, 33)
+20:17:34.166 INFO  manager.WDListener - Before click element-->atext = LOGIN
+20:17:34.258 INFO  manager.WDListener - After click element-->a
+20:17:34.259 INFO  manager.HelperBase - open form by click on button with locator By.xpath("//a[text()='LOGIN']") 
+20:17:34.259 INFO  manager.WDListener - Before find element -->By.name: email
+20:17:34.278 INFO  manager.WDListener - After find element -->By.name: email
+20:17:34.292 INFO  manager.WDListener - Location of element (568, 281)
+20:17:34.308 INFO  manager.WDListener - Before click element-->inputtext = 
+20:17:34.376 INFO  manager.WDListener - After click element-->input
+20:17:34.487 INFO  manager.WDListener - sendKeys -->inputtext
+20:17:34.532 INFO  manager.WDListener - sendKeys -->inputtext
+20:17:34.594 INFO  manager.WDListener - sendKeys -->inputtext
+20:17:34.594 INFO  manager.HelperBase - type in input with locator By.name("email")
+20:17:34.594 INFO  manager.WDListener - Before find element -->By.xpath: //input[last()]
+20:17:34.609 INFO  manager.WDListener - After find element -->By.xpath: //input[last()]
+20:17:34.621 INFO  manager.WDListener - Location of element (568, 351)
+20:17:34.639 INFO  manager.WDListener - Before click element-->inputtext = 
+20:17:34.713 INFO  manager.WDListener - After click element-->input
+20:17:34.861 INFO  manager.WDListener - sendKeys -->inputtext
+20:17:34.924 INFO  manager.WDListener - sendKeys -->inputtext
+20:17:34.982 INFO  manager.WDListener - sendKeys -->inputtext
+20:17:34.982 INFO  tests.TestBase - Test data --> email: 'boris@gmail.com' & password: 'Bbor123456$'
+20:17:34.983 INFO  manager.WDListener - Before find element -->By.xpath: //button[text()='Login']
+20:17:34.999 INFO  manager.WDListener - After find element -->By.xpath: //button[text()='Login']
+20:17:35.012 INFO  manager.WDListener - Location of element (568, 421)
+20:17:35.034 INFO  manager.WDListener - Before click element-->buttontext = Login
+20:17:35.654 INFO  tests.TestBase - Assert check is  alert present with text 'Wrong email or password'
+20:17:35.655 INFO  tests.TestBase - =================================================================
