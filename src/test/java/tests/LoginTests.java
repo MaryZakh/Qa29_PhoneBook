@@ -14,7 +14,7 @@ import java.util.List;
 public class LoginTests extends TestBase{
 
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition(){
         //if Sign Out present ---> logout
         if(app.getHelperUser().isLogged()){
@@ -78,7 +78,7 @@ public class LoginTests extends TestBase{
 
     }
 
-    @Test
+    @Test(groups = {"smoke"})
     public void loginWrongEmail(){
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm("maragmail.com","Mmar123456$");

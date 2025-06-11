@@ -1,0 +1,12 @@
+20:14:52.441 INFO  manager.TestNGListener - Start testing on date -->Sun Jun 08 20:14:52 IDT 2025
+20:14:52.466 INFO  manager.TestNGListener - start test -->loginWrongEmail
+20:14:52.480 INFO  manager.TestNGListener - failed test -->loginWrongEmail
+20:14:52.486 INFO  manager.TestNGListener - start test -->registrationExistsUser
+20:14:52.487 INFO  manager.TestNGListener - failed test -->registrationExistsUser
+20:14:52.488 INFO  manager.TestNGListener - start test -->registrationSuccess
+20:14:52.491 INFO  manager.TestNGListener - failed test -->registrationSuccess
+20:14:52.492 INFO  manager.TestNGListener - start test -->addContactSuccessAllFields
+20:14:52.500 INFO  manager.TestNGListener - failed test -->addContactSuccessAllFields
+20:14:52.501 INFO  manager.TestNGListener - start test -->removeFirstContact
+20:14:52.502 INFO  manager.TestNGListener - failed test -->removeFirstContact
+20:14:52.503 INFO  manager.TestNGListener - Finish testing on date -->Sun Jun 08 20:14:52 IDT 2025
