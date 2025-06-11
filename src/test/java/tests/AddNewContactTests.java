@@ -20,7 +20,7 @@ public class AddNewContactTests extends TestBase {
         }
     }
 
-
+//for jenkins
 
     @Test(groups = {"smoke","regress","retest"})
     public void addContactSuccessAllFields(){
